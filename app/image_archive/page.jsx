@@ -25,19 +25,29 @@ const page = () => {
       </h1>
       <ul>
         <li>
-          <a href="#" className='first'>Universal Slide Show</a>
+          <a href="#" className="first">
+            Universal Slide Show
+          </a>
         </li>
         <li>
-          <a href="#" className='first'>Image Search</a>
+          <a href="#" className="first">
+            Image Search
+          </a>
         </li>
         <li>
-          <a href="#" className='first'>About</a>
+          <a href="/image_archive/about" className="first">
+            About
+          </a>
         </li>
         <li>
-          <a href="/image_archive/colouroscopy" className='first'>Coloroscopy</a>
+          <a href="/image_archive/colouroscopy" className="first">
+            Coloroscopy
+          </a>
         </li>
         <li>
-          <a href="#" className='first'>Library of Babel</a>
+          <a href="#" className="first">
+            Library of Babel
+          </a>
         </li>
       </ul>
     </div>
