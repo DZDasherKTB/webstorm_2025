@@ -54,3 +54,7 @@ a{
     font:13.28px 'Times New Roman', Times, serif;
     margin:22.1776px
 }
+
+.inactive{
+    opacity: 0.5;
+}

@@ -47,3 +47,31 @@ li{
     width: 9.5em;
     padding-bottom: 8px;
 }
+
+
+.first {
+    animation: none;
+    transition: color 0.3s;
+}
+
+.first:hover {
+    animation: changeColor1 4s infinite;
+}
+
+@keyframes changeColor1 {
+    0% {
+        color: greenyellow;
+    }
+    30% {
+        color: cyan;
+    }
+    60% {
+        color: purple;
+    }
+    80% {
+        color: cyan;
+    }
+    100% {
+        color: greenyellow;
+    }
+}
