@@ -1,0 +1,130 @@
+body{
+  overflow-y: auto;
+}
+.main-content {
+  flex: 1;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 4rem;
+  margin-left: 16rem;
+  margin-right: 15rem;
+  background-color: #fff;
+  overflow-x: auto;
+}
+.georgia-font{
+  font-family: 'Georgia', serif;
+}
+
+.about-section {
+  padding: 0 2rem;
+}
+
+.about-section h2 {
+  margin: 2rem 0;
+  color: #2c1810;
+  text-align: left;
+  font-size: 1.2rem;
+  padding-bottom: 0.5rem;
+}
+
+.content-with-image {
+  display: flex;
+  gap: 2rem;
+  margin: 2rem 0;
+  align-items: flex-start;
+}
+
+.text-content {
+  flex: 2;
+  font-size: 0.9rem;
+}
+
+.side-image {
+  flex: 1;
+  max-width: 350px;
+  height: 350px;
+}
+
+.text-content p {
+  margin-bottom: 1.5rem;
+  text-align: justify;
+  line-height: 1.8;
+
+}
+
+/* Borges Section */
+.borges-section {
+  margin: 3rem 0;
+  margin-bottom: 10rem;
+  padding-bottom: 3rem;
+  border-bottom: 2px solid rgb(189, 188, 188);
+}
+
+.borges-photo {
+  max-width: 300px;
+  height: auto;
+  margin-right: 2rem;
+}
+
+/* Quote Section */
+.quote-section {
+  font-size: 1rem;
+}
+.dick{
+  margin-bottom: 6rem;
+  padding-bottom: 3rem;
+  border-bottom: 2px solid rgb(189, 188, 188);
+}
+/* Links */
+a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Donate Section */
+.donate-section {
+  text-align: center;
+  margin: 2rem 0;
+  margin-bottom: 10rem;
+  padding-bottom: 3rem;
+  border-bottom: 2px solid rgb(189, 188, 188);
+}
+
+.donate-icon {
+  max-width: 150px;
+  height: auto;
+}
+
+/* Creators Section */
+.creators-section {
+  display: flex;
+  gap: 2rem;
+  margin: 2rem 0;
+  margin-bottom: 3rem;
+  padding-bottom: 3rem;
+  border-bottom: 2px solid rgb(189, 188, 188);
+}
+
+.books-image {
+  max-width: 300px;
+  height: auto;
+}
+
+/* Begin Section */
+.begin-section {
+  text-align: center;
+  margin: 3rem 0;
+  padding: 2rem;
+  background-color: #f9f7f4;
+}
+
+/* Back Link */
+.back-link {
+  text-align: center;
+  margin: 2rem 0;
+}
