@@ -1,51 +1,61 @@
+"use client"; // Marking this component as a client component
+
 import React from "react";
-import Link from "next/link";
-import "./main.css";
 import AnimatedText from "./components/AnimatedText";
+import "./main.css";
+
 const page = () => {
+  const reloadPage = (e) => {
+    e.preventDefault(); // Prevent the default behavior
+    window.location.reload(); // Reload the page
+  };
+
   return (
     <>
       <img id="first" src="https://libraryofbabel.info/img/hex802.png" />
       <ul>
         <li>
-          <Link href="#">
+          <a href="#" >
             <AnimatedText text="Browse" />
-          </Link>
+          </a>
         </li>
         <li>
-          <Link href="#">
+          <a href="#" >
             <AnimatedText text="Search" />
-          </Link>
+          </a>
         </li>
         <li>
-          <Link href="#">
+          <a href="#" >
             <AnimatedText text="Random" />
-          </Link>
+          </a>
         </li>
         <li>
-          <Link href="/about">
+          <a href="/about" >
             <AnimatedText text="About" />
-          </Link>
+          </a>
         </li>
         <li>
-          <Link href="#">
-            <AnimatedText text="Referance Hex" />
-          </Link>
+          <a href="#" >
+            <AnimatedText text="Reference Hex" />
+          </a>
         </li>
         <li>
-          <Link href="/image_archive">
+          <a href="/image_archive" >
             <AnimatedText text="Image Archives" />
-          </Link>
+          </a>
         </li>
         <li>
-          <Link href="https://www.reddit.com/r/BabelForum/?rdt=56214">
+          <a
+            href="https://www.reddit.com/r/BabelForum/?rdt=56214"
+            
+          >
             <AnimatedText text="Forum" />
-          </Link>
+          </a>
         </li>
         <li>
-          <Link href="/theory">
+          <a href="/theory" >
             <AnimatedText text="Theory" />
-          </Link>
+          </a>
         </li>
       </ul>
       <img src="https://libraryofbabel.info/img/hex802.png" />

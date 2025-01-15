@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import colorfulAnimal from "../../public/colourful-animal.jpg";
 import borgesPhoto from "../../public/borges.jpg";

@@ -1,5 +1,6 @@
-import React from 'react'
-import './images.css'
+"use client";
+import React from "react";
+import "./images.css";
 const page = () => {
   return (
     <div className="container">
@@ -25,6 +26,6 @@ const page = () => {
       </ul>
     </div>
   );
-}
+};
 
-export default page
+export default page;

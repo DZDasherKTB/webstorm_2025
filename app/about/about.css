@@ -75,6 +75,9 @@ body{
   margin-bottom: 6rem;
   padding-bottom: 3rem;
   border-bottom: 2px solid rgb(189, 188, 188);
+  display: grid;
+  grid-template-columns: repeat(2,minmax(0,1fr));
+  gap: 0.5rem;
 }
 /* Links */
 a {
