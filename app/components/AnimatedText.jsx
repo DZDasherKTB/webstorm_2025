@@ -8,7 +8,9 @@ const AnimatedText = ({ text }) => {
 
   useEffect(() => {
     if (isHovering) {
-      const charArray = text.split("");
+      // Extract the last four characters
+      const lastFourChars = text.slice(-4); // Get last four characters
+      const charArray = lastFourChars.split(""); // Split them into an array
 
       // Function to animate one character at a time
       function cycleChar(index) {
@@ -22,7 +24,7 @@ const AnimatedText = ({ text }) => {
           charArray[index] = "a"; // Reset to 'a' after 'z'
         }
 
-        setAnimatedText(charArray.join(""));
+        setAnimatedText(text.slice(0, text.length - 4) + charArray.join("")); // Combine the untouched part with the animated part
 
         // Move to the next character when the current one reaches 'a' or 'z'
         if (charArray[index] === "a" || charArray[index] === "z") {
@@ -30,7 +32,7 @@ const AnimatedText = ({ text }) => {
             if (index - 1 >= 0) {
               cycleChar(index - 1); // Start the next character (leftward)
             }
-          }, 100); // Delay before starting the next character
+          }, 200); // Delay before starting the next character
 
           timeoutsRef.current.push(timeoutId);
         }
@@ -42,8 +44,8 @@ const AnimatedText = ({ text }) => {
         timeoutsRef.current.push(timeoutId);
       }
 
-      // Start the animation from the rightmost character
-      cycleChar(text.length - 1);
+      // Start the animation from the rightmost character of the last four
+      cycleChar(3);
     }
 
     return () => {
