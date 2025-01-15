@@ -8,19 +8,19 @@ const page = () => {
       </h1>
       <ul>
         <li>
-          <a href="#">Universal Slide Show</a>
+          <a href="#" id='first'>Universal Slide Show</a>
         </li>
         <li>
-          <a href="#">Image Search</a>
+          <a href="#" id='second'>Image Search</a>
         </li>
         <li>
-          <a href="#">About</a>
+          <a href="#" id='third'>About</a>
         </li>
         <li>
-          <a href="/image_archive/colouroscopy">Coloroscopy</a>
+          <a href="/image_archive/colouroscopy" id='fourth'>Coloroscopy</a>
         </li>
         <li>
-          <a href="#">Library of Babel</a>
+          <a href="#" id='fifth'>Library of Babel</a>
         </li>
       </ul>
     </div>
