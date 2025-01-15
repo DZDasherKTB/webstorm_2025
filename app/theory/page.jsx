@@ -69,9 +69,9 @@ const page = () => {
         <div className="img-container">
             <Image key="hexgrau1" src={hexgrau} alt="hell" width={100} height={100}/>
             <Image key="hexagons1s" src={hexagons1s}alt="hell" width={100} height={100}/>
-            <Image key="hexgrau2" src={hexagon2s} alt="hell" width={100} height={100}/>
-            <Image key="hexgrau2" src={hexagon3s} alt="hell" width={100} height={100}/>
-            <Image key="hexgrau2" src={hexagon4s} alt="hell" width={100} height={100}/>
+            <Image key="hexgrau2-1" src={hexagon2s} alt="hell" width={100} height={100}/>
+            <Image key="hexgrau2-2" src={hexagon3s} alt="hell" width={100} height={100}/>
+            <Image key="hexgrau2-3" src={hexagon4s} alt="hell" width={100} height={100}/>
         </div>
 
       </div>
