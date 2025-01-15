@@ -1,6 +1,22 @@
 import React from 'react'
 import './images.css'
 const page = () => {
+  const element = document.getElementById('first');
+
+element.addEventListener('mouseover', () => {
+    element.style.animation = 'changeColor1 3s forwards';
+});
+
+element.addEventListener('mouseleave', () => {
+    // Get the computed style of the element
+    const computedStyle = getComputedStyle(element);
+    const currentColor = computedStyle.color;
+
+    // Remove animation and keep the current color
+    element.style.animation = 'none';
+    element.style.color = currentColor;
+});
+
   return (
     <div className="container">
       <h1 className="text-bold">
