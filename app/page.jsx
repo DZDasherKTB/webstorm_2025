@@ -43,7 +43,7 @@ const page = () => {
           </Link>
         </li>
         <li>
-          <Link href="#">
+          <Link href="/theory">
             <AnimatedText text="Theory" />
           </Link>
         </li>
