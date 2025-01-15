@@ -111,7 +111,7 @@ const page = () => {
             third. That must be the case, unless he had decided to create a
             labyrinth in which only his most careful readers would become lost,
             consisting of an impossible yoking of inconsistent architectures and
-            irreconcilable texts. If we accept the reading that each hexagon has
+            irreconcilable texts. </p><p>If we accept the reading that each hexagon has
             two connections to adjacent chambers, this still leaves a great
             diversity of possible organizations. The easiest assumption to make
             is that each hexagon has its passages on two opposing walls,
