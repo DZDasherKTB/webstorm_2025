@@ -8,17 +8,17 @@ const page = () => {
       <img id="first" src="https://libraryofbabel.info/img/hex802.png" />
       <ul>
         <li>
-          <Link href="#">
-            <AnimatedText text="Browse" />
+          <Link href="#" className="inactive">
+            <AnimatedText text="Browse"/>
           </Link>
         </li>
         <li>
-          <Link href="#">
+          <Link href="#" className="inactive">
             <AnimatedText text="Search" />
           </Link>
         </li>
         <li>
-          <Link href="#">
+          <Link href="#" className="inactive">
             <AnimatedText text="Random" />
           </Link>
         </li>
@@ -28,7 +28,7 @@ const page = () => {
           </Link>
         </li>
         <li>
-          <Link href="#">
+          <Link href="#" className="inactive">
             <AnimatedText text="Referance Hex" />
           </Link>
         </li>
