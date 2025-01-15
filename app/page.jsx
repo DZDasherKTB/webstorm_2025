@@ -33,7 +33,7 @@ const page = () => {
           </Link>
         </li>
         <li>
-          <Link href="image_archives.html">
+          <Link href="/image_archive">
             <AnimatedText text="Image Archives" />
           </Link>
         </li>
